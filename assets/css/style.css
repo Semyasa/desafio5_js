@@ -1,0 +1,53 @@
+body{
+    
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'totales listaTareas listaTareas';
+}
+
+header h1{
+
+    border-bottom: 3px double #369
+}
+
+table{
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+.ingresoDatos{
+
+    width: 520px;
+}
+
+.container{
+    background-color:gainsboro;
+    width: 650px;
+}
+
+.header{
+    display: grid;
+    grid-area: header;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.totales{
+    display: flex;
+    flex-direction: column;
+    grid-area: totales;   
+}
+
+.listaTareas{
+    display: grid;
+    grid-area: listaTareas; 
+}
